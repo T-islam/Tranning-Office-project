@@ -1,0 +1,578 @@
+                                                @font-face {
+                                                    font-family: "Kalpurush";
+                                                    src: ("../fonts/kalpurush.ttf");
+                                                }
+                                                
+                                                * {
+                                                    margin: 0;
+                                                    padding: 0;
+                                                    box-sizing: border-box;
+                                                    font-size: 16px;
+                                                    font-family: Kalpurush, 'Hind Siliguri', sans-serif;
+                                                }
+                                                
+                                                @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;600&display=swap');
+                                                body {
+                                                    background-color: #eaeaea;
+                                                }
+                                                
+                                               
+                                                
+                                                .Container {
+                                                    font-family: 'Hind Siliguri', sans-serif;
+                                                    width: 960px;
+                                                    margin: 0 auto;
+                                                    padding: 0;
+                                                    box-sizing: border-box;
+                                                    position: relative;
+                                                    box-shadow: 0px 0px 23px #464343;
+                                                    background-color: #f3f3f3;
+                                                }
+                                                
+                                                .d-playbox {
+                                                    margin: 0 0 15px 0;
+                                                    padding: 27px 20px;
+                                                    background: #f6f6f6;
+                                                }
+                                                
+                                                #slider {
+                                                    position: absolute;
+                                                    top: 0;
+                                                    left: 0;
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    overflow: hidden;
+                                                    background-color: transparent;
+                                                }
+                                                
+                                                #slider img {
+                                                    width: 100%;
+                                                }
+                                                
+                                                #jssor_1 {
+                                                    position: relative;
+                                                    margin: 0 auto;
+                                                    top: 0px;
+                                                    left: 0px;
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    overflow: hidden;
+                                                    visibility: hidden;
+                                                }
+                                                
+                                                .jssorl-009-spin {
+                                                    position: relative;
+                                                    top: 0px;
+                                                    left: 0px;
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    text-align: center;
+                                                    background-color: rgba(0, 0, 0, 0.7);
+                                                }
+                                                /* ::::::::::::::Slider css:::::::::::: */
+                                                
+                                                .d-playbox {
+                                                    margin: 10px 0 15px 0;
+                                                    padding: 18px 20px;
+                                                    background: #f6f6f6;
+                                                    box-sizing: border-box;
+                                                }
+                                                
+                                                .d-demo-wrap .jctkr-label {
+                                                    height: 35px;
+                                                    padding: 0 17px;
+                                                    line-height: 42px;
+                                                    background: rgb(114 75 115);
+                                                    font-style: italic;
+                                                    font-size: 19px;
+                                                    color: #fff;
+                                                    text-shadow: 0 1px 2px rgb(114 75 115);
+                                                    cursor: default;
+                                                }
+                                                
+                                                .d-demo-wrap .jctkr-label:hover {
+                                                    background-color: rgb(114 75 115);
+                                                }
+                                                
+                                                [class*="js-conveyor-"] ul {
+                                                    display: inline-block;
+                                                    opacity: 0.5;
+                                                }
+                                                
+                                                [class*="js-conveyor-"] ul li {
+                                                    padding: 0 15px;
+                                                    line-height: 35px;
+                                                    font-size: 16px;
+                                                }
+                                                /* ::::::::::::::Slider css:::::::::::: */
+                                                
+                                                #header {
+                                                    position: relative;
+                                                    top: 0;
+                                                    left: 0;
+                                                }
+                                                
+                                                header .btn img {
+                                                    display: none;
+                                                }
+                                                
+                                                #main_top {
+                                                    position: relative;
+                                                    height: 216px;
+                                                    background-color: #00000059;
+                                                }
+                                                
+                                                .logo {
+                                                    width: 50px;
+                                                    height: 50px;
+                                                    display: inline-block;
+                                                    position: absolute;
+                                                }
+                                                
+                                                .gov_logo {
+                                                    top: 5%;
+                                                    left: 45%;
+                                                }
+                                                
+                                                .office_logo {
+                                                    top: 57%;
+                                                    left: 5%;
+                                                }
+                                                
+                                                .jsm_logo {
+                                                    float: right;
+                                                    clear: left;
+                                                    top: 60%;
+                                                    right: 5%;
+                                                }
+                                                
+                                                .name {
+                                                    text-align: center;
+                                                    display: inline-block;
+                                                    font-weight: 600;
+                                                    font-size: 3vw;
+                                                    font-family: Kalpurush, 'Hind Siliguri', sans-serif;
+                                                    text-shadow: 2px 2px 2px rgb(119 114 114), 3px 3px 3px rgb(0 0 0 / 74%), 4px 4px 4px rgb(55 55 55 / 93%);
+                                                    position: relative;
+                                                    left: 13%;
+                                                    top: 55%;
+                                                    color: #efefef;
+                                                    line-height: 1em;
+                                                }
+                                                
+                                                .name span {
+                                                    font-size: 0.8em;
+                                                    display: inline-block;
+                                                    margin-top: 15px;
+                                                }
+                                                /* #menu {
+                                                    width: 100%;
+                                                    float: left;
+                                                    background-color: #724b73;
+                                                    border: 2px solid #6A6A6A;
+                                                    display: inline;
+                                                    color: #fff;
+                                                } */
+                                                
+                                                #menu ul {
+                                                    list-style: none;
+                                                    background-color: #724b73;
+                                                }
+                                                
+                                                #menu ul li {
+                                                    display: inline-block;
+                                                }
+                                                /* #menu ul li a {
+                                                    text-decoration: none;
+                                                    display: inline-block;
+                                                    padding: 5px 20px;
+                                                    background-color: #724b73;
+                                                    color: azure;
+                                                    font-size: 1.3em;
+                                                } */
+                                                
+                                                #menu ul li a img {
+                                                    width: 40px;
+                                                    height: 50px;
+                                                    cursor: pointer;
+                                                    display: inline-block;
+                                                    position: absolute;
+                                                    top: -5px;
+                                                    left: 36%;
+                                                }
+                                                
+                                                #body_content {
+                                                    margin: 10px 0px;
+                                                }
+                                                
+                                                #left_side {
+                                                    float: left;
+                                                    width: 46vw;
+                                                    margin: auto;
+                                                    padding: 0 10px;
+                                                    box-sizing: border-box;
+                                                    background-color: #ffff;
+                                                    clear: right;
+                                                    overflow: hidden;
+                                                }
+                                                
+                                                #News {
+                                                    height: 10vh;
+                                                    padding: 4px 10px;
+                                                    margin: 5px auto;
+                                                }
+                                                
+                                                #News h2 {
+                                                    text-align: center;
+                                                    border: 2px solid #724b73;
+                                                    border-radius: 23%;
+                                                }
+                                                
+                                                #News p {
+                                                    background-color: #6a586aa3;
+                                                    color: #312a2a;
+                                                    font-size: 1.2em;
+                                                    font-weight: bolder;
+                                                }
+                                                
+                                                #Box_Notic {
+                                                    height: 30vh;
+                                                    background-color: #fff;
+                                                    margin-top: 3%;
+                                                    text-align: center;
+                                                }
+                                                
+                                                #notic_box {
+                                                    width: 48%;
+                                                    float: left;
+                                                    clear: right;
+                                                    background-color: #99a8a759;
+                                                    border: 2px solid #c3c8c8e6;
+                                                }
+                                                
+                                                #result_box {
+                                                    width: 48%;
+                                                    float: right;
+                                                    background-color: #99a8a759;
+                                                }
+                                                
+                                                #National_info {
+                                                    height: 100%;
+                                                    background-color: beige;
+                                                    overflow: hidden;
+                                                }
+                                                
+                                                .info_img {
+                                                    width: 80%;
+                                                    overflow: hidden;
+                                                    margin: 3px auto;
+                                                }
+                                                
+                                                #National_info img {
+                                                    width: 100%;
+                                                    overflow: hidden !important;
+                                                }
+                                                
+                                                #sidebar {
+                                                    float: right;
+                                                    width: 16vw;
+                                                    margin: 0;
+                                                    padding: 0 5px;
+                                                    box-sizing: border-box;
+                                                    background-color: #ffff;
+                                                    font-size: 1em;
+                                                    text-align: center;
+                                                }
+                                                
+                                                .h3 {
+                                                    display: inline-block;
+                                                    background-color: #724b73;
+                                                    color: #fff;
+                                                    padding: 0;
+                                                    border-radius: 5px;
+                                                    margin: 4px auto;
+                                                    min-width: 160px;
+                                                    text-align: center;
+                                                }
+                                                
+                                                #content_1 {
+                                                    margin-top: 3%;
+                                                }
+                                                
+                                                #content_1 h2 {
+                                                    background-color: #724b73;
+                                                    color: #fff;
+                                                    padding: 5px 0px;
+                                                    border-radius: 5px;
+                                                    text-align: center;
+                                                    width: 100%;
+                                                    font-size: 1.7vw
+                                                }
+                                                
+                                                p {
+                                                    text-align: justify;
+                                                    word-spacing: 0.2em;
+                                                    line-height: 1.8em;
+                                                }
+                                                
+                                                #content_2 {
+                                                    margin-top: 3%;
+                                                }
+                                                
+                                                #content_2 h2 {
+                                                    background-color: #724b73;
+                                                    color: #fff;
+                                                    padding: 5px 0px;
+                                                    border-radius: 5px;
+                                                    text-align: center;
+                                                    width: 100%;
+                                                    font-size: 1.7vw;
+                                                }
+                                                
+                                                #sidebar h6 {}
+                                                
+                                                #sidebar img {
+                                                    width: 60%;
+                                                    height: 40%;
+                                                }
+                                                
+                                                #footer {
+                                                    margin-top: 5px;
+                                                    padding: 5px 10px;
+                                                    position: relative;
+                                                    background-color: #9d9595;
+                                                    text-align: center;
+                                                }
+                                                
+                                                .footer_top {
+                                                    box-sizing: border-box;
+                                                }
+                                                
+                                                .footer_left {
+                                                    width: 32%;
+                                                    float: left;
+                                                    background-color: #724b73;
+                                                    margin: 0px 2px;
+                                                    padding: 30px 0px;
+                                                }
+                                                
+                                                .footer_right {
+                                                    width: 32%;
+                                                    float: left;
+                                                    background-color: #724b73;
+                                                    margin: 0px 2px;
+                                                    padding: 13px 0px;
+                                                }
+                                                
+                                                .footer_center {
+                                                    width: 32%;
+                                                    float: left;
+                                                    padding: 1px 0px;
+                                                    background-color: #724b73;
+                                                        margin-left: 2px;
+                                                }
+                                                
+                                                #footer ul {
+                                                    display: inline;
+                                                }
+                                                
+                                                #footer ul li {
+                                                    display: inline;
+                                                    list-style: none;
+                                                    margin: 5px auto;
+                                                }
+                                                
+                                                #footer ul li a {
+                                                    color: #fff;
+                                                    display: inline-block;
+                                                    margin: 10px;
+                                                }
+                                                
+                                                #footer h2 {
+                                                    display: inline-block;
+                                                    padding: 32px 0px;
+                                                    color: white;
+                                                    font-size: .9em;
+                                                }
+                                                
+                                                .footer_buttom {
+                                                    width: 100%;
+                                                    display: inline-block;
+                                                    margin-top: 25px;
+                                                    text-align: justify;
+                                                    text-align-last: center;
+                                                }
+                                                
+                                                .footer_left img {
+                                                    width: 50px;
+                                                    height: 50px;
+                                                    cursor: pointer;
+                                                }
+                /*--------------::::::::::::: Page Info Section ::::::::::::::::::::::::::::::: ----------- */
+                                                .Page_Intro{
+                                                    margin-top: 36px;
+                                                    padding: 43px 25px;
+                                                    text-align:justify;
+                                                    
+                                                    }
+                                                .Project_about_h2 {
+                                                    text-align: center;
+                                                    display: block;
+                                                    background-color: #724b73;
+                                                    color: #ffefef;
+                                                    font-size: 19px;
+                                                    font-optical-sizing: auto;
+                                                    border-bottom: 1px solid #6b6565;
+                                                    box-shadow: 0px 3px 10px 4px #643f65bf;
+                                                    margin:38px 0;
+                                                }
+                                                #Project_about1 ul{
+                                                    list-style-position: inside;
+                                                    list-style-image: url(../img/icon/list/Untitled-2.png);
+                                                    }
+                                                    
+                                                #Project_about1 ul img{}
+                                                #Project_about1 ul li {
+                                                    line-height: 2.5;
+                                                    text-align: justify;
+                                                }
+                                                
+                                                #Project_about2 ul{list-style-position: inside;
+                                                    list-style-image: url(../img/icon/list/Right1.png);}
+                                                #Project_about1 ul li {
+                                                    line-height: 2.5;
+                                                    text-align: justify;
+                                                }
+                                                table{
+                                                
+                                                    }
+                                                .ttr{
+                                                    background-color: #deebf773;
+                                                    }
+                                                table tr th{text-align: center;}
+                                                table tr td{
+                                                padding: 17px 41px;
+                                                    text-align: end;
+                                                }
+                                                .tth1{
+                                                    
+                                                        font-size: 22px;
+                                                        background-color: #1b00ff;
+                                                        color: white;
+                                                        box-shadow: -4px -4px 6px #3a3d92;
+                                                        border-style: none;
+                                                    
+                                                    }
+                                                .tth2{
+                                                    
+                                                        font-size: 22px;
+                                                        background-color: #27a28c;
+                                                        color: white;
+                                                        box-shadow: -4px -4px 6px #098451;
+                                                        border-style: none;
+                                                    
+                                                    }
+                                                    
+                                                    #location{
+                                                       padding: 5% 20%;
+    border: 1px dotted #d8cece;
+    background-color: #eae8e8f2;
+                                                    }
+            /*--------------::::::::::::: Page Info Section ::::::::::::::::::::::::::::::: ----------- */  
+                                                .footer_buttom {}
+                                                /* Smartphones (portrait and landscape) ----------- */
+                                                
+                                                @media only screen and (min-device-width: 481px) and (max-device-width: 1200px) {
+                                                    body {
+                                                        width: 100%;
+                                                    }
+                                                    p {
+                                                        font-size: 2vw;
+                                                        text-align: justify;
+                                                        word-spacing: 0.2em;
+                                                        line-height: 1.8em;
+                                                    }
+                                                    .Container {
+                                                        font-family: 'Hind Siliguri', sans-serif;
+                                                        width: 100%;
+                                                        margin: 0 auto;
+                                                        padding: 0;
+                                                        box-sizing: border-box;
+                                                        position: relative;
+                                                        background-color: #fff;
+                                                    }
+                                                    #main_top {
+                                                        position: relative;
+                                                        height: 182px;
+                                                        background-color: transparent;
+                                                    }
+                                                    .name {
+                                                        text-align: center;
+                                                        display: inline-block;
+                                                        font-weight: 600;
+                                                        font-size: 4vw;
+                                                        font-family: Kalpurush, 'Hind Siliguri', sans-serif;
+                                                        text-shadow: 2px 2px 2px rgb(119 114 114), 3px 3px 3px rgb(0 0 0 / 74%), 4px 4px 4px rgb(55 55 55 / 93%);
+                                                        position: relative;
+                                                        left: 15%;
+                                                        top: 41%;
+                                                        color: #efefef;
+                                                        line-height: 1em;
+                                                    }
+                                                    #footer{
+                                                        color:#635a5a;
+                                                        }
+                                                    #left_side {
+                                                        float: left;
+                                                        width: 70vw;
+                                                        margin: auto;
+                                                        padding: 0 10px;
+                                                        box-sizing: border-box;
+                                                        background-color:  #ffffff42;
+                                                        clear: right;
+                                                        overflow: hidden;
+                                                    }
+                                                    #sidebar {
+                                                        float: right;
+                                                        width: 29vw;
+                                                        margin-top: 3%;
+                                                        padding: 0 5px;
+                                                        box-sizing: border-box;
+                                                        background-color: #ffff;
+                                                        font-size: 1em;
+                                                        text-align: center;
+                                                    }
+                                                    .footer_left img {
+                                                        width: 30px;
+                                                        height: 30px;
+                                                        cursor: pointer;
+                                                    }
+                                                    .footer_right {
+                                                        width: 56%;
+                                                        float: left;
+                                                        background-color: #9d9595;
+                                                        margin: 0px 5px;
+                                                        padding: 14px 0px;
+                                                    }
+                                                    .footer_center {
+                                                        width: 20%;
+                                                        float: left;
+                                                        padding: 2px 0px;
+                                                        background-color: #9d9595;
+                                                    }
+                                                    #footer ul li a{
+                                                        color:#635a5a;
+                                                        }
+                                                    .footer_left {
+                                                        width: 20%;
+                                                        float: left;
+                                                        background-color: #9d9595;
+                                                        margin: 0px 5px;
+                                                    }
+                                                    #footer h2 {
+                                                        display: inline-block;
+                                                        color: #635a5a;
+                                                        font-size: 1em;
+                                                        padding: 9px 0px;
+                                                    }
+                                                }

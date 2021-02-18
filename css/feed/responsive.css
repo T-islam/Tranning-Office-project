@@ -1,0 +1,193 @@
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        /* Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: 2vw;
+            font-family: Kalpurush, 'Hind Siliguri', sans-serif;
+        }
+        .section {
+            display: block;
+            width: 100%;
+        }
+    }
+    
+    p {
+        text-align: justify;
+        word-spacing: 0.2em;
+        line-height: 1.8em;
+        padding: 0px 10px;
+        font-size: 1em;
+    }
+    
+    #main_top {
+        position: relative;
+        height: 100px;
+        background-color: #00000059;
+    }
+    
+     #menu ul li a img {
+        display: none ;
+    }
+    
+    .h3 {
+        display: block;
+        background-color: #724b73;
+        color: #fff;
+        padding: 5px 0px;
+        border-radius: 5px;
+        margin: 6px auto;
+        width: 100%;
+        text-align: center;
+        font-size: 3vw;
+    }
+    
+    .jctkr-label {
+        font-size: 2vw;
+    }
+    
+   .logo {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+}
+    .gov_logo {
+    top: 0%;
+    left: 45%;
+}
+    .office_logo {
+    top: 0%;
+    left: 3%;
+}
+    .jsm_logo {
+    float: right;
+    clear: left;
+    top: 0%;
+    right: 3%;
+}
+    .name{
+            font-size: 1em;
+                left: 9%;
+                top: 48%;
+    }
+    .logo {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    opacity: 0.4;
+}
+    #body_content {
+        margin: 0px auto;
+    }
+    #location {
+    padding: 0;
+    }
+    #content_1 h2,
+    #content_2 h2 {
+        background-color: #724b73;
+        color: #fff;
+        padding: 5px 0px;
+        border-radius: 5px;
+        text-align: center;
+        width: 100%;
+        font-size: 4.7vw;
+    }
+    
+    #left_side {
+        width: 100%;
+        margin: auto;
+        padding: 0 10px;
+        box-sizing: border-box;
+        background-color: #ffff;
+        clear: right;
+        overflow: hidden;
+    }
+    
+    #sidebar {
+        width: 100%;
+        margin: 0;
+        padding: 0 5px;
+        box-sizing: border-box;
+        background-color: #ffff;
+        font-size: 1em;
+        text-align: center;
+    }
+    
+    .h3 {
+        display: block;
+        background-color: #724b73;
+        color: #fff;
+        padding: 5px 0px;
+        border-radius: 5px;
+        margin: 6px auto;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #sidebar img {
+        width: 30%;
+    }
+    
+    .footer_right {
+        width: 31%;
+        float: left;
+        background-color: #724b736e;
+        margin: 0px 5px;
+        padding: 40px 0px;
+    }
+    
+    .footer_left {
+        width: 25%;
+        float: left;
+        background-color: #724b736e;
+        margin: 0;
+        padding: 42px 0px;
+    }
+    
+    .footer_center {
+        width: 25%;
+        float: left;
+        padding: 13px 0px;
+        background-color: #724b736e;
+    }
+    
+    .footer_right {
+        width: 45.5%;
+        float: left;
+        background-color: #724b736e;
+        margin: 0px 5px;
+        padding: 0;
+    }
+    
+    #footer h2 {
+        display: inline-block;
+        padding: 0;
+        color: white;
+        font-size: 2em;
+    }
+    
+    #footer h2 {
+        display: inline-block;
+        padding: 54px 8px;
+        color: white;
+        font-size: 1.3em;
+    }
+    
+    .footer_buttom span {
+        display: inline-block;
+        padding: 8px;
+        font-size: 0.6em;
+    }
+    
+    .footer_buttom small {
+        font-size: 0.7em;
+    }
+    .footer_left img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+    /* Smartphones (landscape) ----------- */
